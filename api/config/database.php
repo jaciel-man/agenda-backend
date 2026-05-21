@@ -1,9 +1,9 @@
 <?php
 class Database {
-    private $host = "mysql-jaciel12.alwaysdata.net";
-    private $db_name = "jaciel12_agenda_db";
-    private $username = "jaciel12";      // Cambia en producción
-    private $password = "AgendaWeb";         // Cambia en producción
+   private $host = "mysql-jaciel12.alwaysdata.net";
+    private $db_name = "jaciel12_agenda";
+    private $username = "jaciel12_admin";   // el nuevo usuario
+    private $password = "clave123";     // Cambia en producción
     public $conn;
 
     public function getConnection() {
